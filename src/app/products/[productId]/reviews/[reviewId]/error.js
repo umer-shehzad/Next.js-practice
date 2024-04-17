@@ -1,9 +1,9 @@
 "use client";
 
-export default function ErrorBoundary({ error }) {
+export default function ErrorBoundary({ error, reset }) {
     return (
         <div>
-            {error.message}
+            {error.message} <button onClick={reset}>Try again</button>
         </div>
     )
 }
