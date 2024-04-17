@@ -3,7 +3,7 @@ export default function ProductDetailsLayout({ children }) {
         <>
             {children}
             <h2>
-                Features products
+                Nested Layout - Features products
             </h2>
         </>
     )
